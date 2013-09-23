@@ -1,0 +1,27 @@
+.wp-femu-iframe {
+  display: none;
+}
+
+.wp-femu-preview {
+  display: table;
+  width: 100%;
+  padding: .25em;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+
+.wp-femu-preview-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.wp-femu-uploading {
+  margin: 0 auto;
+  margin-top: 1em;
+  height: 32px;
+  width: 32px;
+}
+
+.wp-femu-image {
+  margin: 0 auto;
+}
