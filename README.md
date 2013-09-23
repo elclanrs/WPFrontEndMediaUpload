@@ -28,7 +28,7 @@ Then **outside** the main form call the plugin to build the image preview field:
 
 <?php FrontEndMediaUpload::form('field_name', array(
   'dimensions' => array(250, 250),
-  'extensions'=>array('jpg', 'png')
+  'extensions' => array('jpg', 'png')
 )) ?>
 ```
 
