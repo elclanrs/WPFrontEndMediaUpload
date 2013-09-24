@@ -50,7 +50,7 @@ If you have multiple FEMU forms in your page just add them to the selector:
 $(this).frontEndMediaUpload('#field1, #field2, #field3');
 ```
 
-Now, when you submit the form, FEMU will add the a hidden field to your main form with the image's filename only if the image upload was succesful:
+Now, when you submit the form, FEMU will add a hidden field to your main form with the image's filename only if the image upload was succesful:
 
 ```html
 <form id="main-form" action="post">
