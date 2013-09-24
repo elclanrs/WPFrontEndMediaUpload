@@ -1,7 +1,5 @@
 jQuery(function($) {
 
-  var hasFileReader = typeof window.FileReader !== 'undefined';
-
   // Add image hidden fields to main form
   $.fn.frontEndMediaUpload = function(images) {
     var self = this;

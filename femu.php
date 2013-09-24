@@ -9,7 +9,7 @@ require_once ABSPATH .'wp-admin/includes/image.php';
 require_once ABSPATH .'wp-admin/includes/file.php';
 require_once ABSPATH .'wp-admin/includes/media.php';
 
-require_once('polyfills.php');
+require_once 'polyfills.php';
 
 FrontEndMediaUpload::init();
 
