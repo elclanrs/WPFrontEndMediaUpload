@@ -4,9 +4,9 @@ Create simple image uploads with preview in your WordPress themes and store them
 
 ## Installation
 
-To install the plugin clone the repo in a folder in your plugins directory, ie. `wp-content/plugins/femu` and the activate it through WordPress.
+To install the plugin clone the repo in a folder in your plugins directory, ie. `wp-content/plugins/femu` and then activate it through WordPress.
 
-Then you need to create a temporary folder in `/wp-content/uploads/temp` and set the right permissions (or just `chmod 777`).
+Then you need to create a temporary folder in `/wp-content/uploads/temp` and set the right permissions (or just `chmod 777`). All succesful and failed uploads will be put here so FEMU can work its magic. It's recommended that you set-up a cron hob to delete these files periodically.
 
 ## How to
 
