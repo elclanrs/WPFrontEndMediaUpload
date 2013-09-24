@@ -1,6 +1,6 @@
-# WP Front-End Media Upload (FEMU)
+# WP Front-End Media Upload
 
-Create simple image uploads with preview in your WordPress themes and store them in the media gallery.
+With FEMU you can create simple image uploads with preview in your WordPress themes and store them in the media gallery.
 
 ## Installation
 
