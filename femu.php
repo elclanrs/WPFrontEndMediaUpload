@@ -5,6 +5,10 @@ Description: Easy front-end iframe single file upload with preview
 Author: Cedric Ruiz
 */
 
+require_once ABSPATH .'wp-admin/includes/image.php';
+require_once ABSPATH .'wp-admin/includes/file.php';
+require_once ABSPATH .'wp-admin/includes/media.php';
+
 require_once('polyfills.php');
 
 FrontEndMediaUpload::init();
