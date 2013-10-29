@@ -123,7 +123,7 @@ class FrontEndMediaUpload
   static function checkExtensions($file, $extensions)
   {
     $filetype = wp_check_filetype($file['name']);
-    return (bool) preg_match('/'. implode('|', $extensions) .'/', $filetype['ext']);
+    return (bool) preg_match('/'. implode('|', $extensions) .'/i', $filetype['ext']);
   }
 
   static function checkDimensions($path, $dimensions)
