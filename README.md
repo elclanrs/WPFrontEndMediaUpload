@@ -32,11 +32,11 @@ Then **outside** the main form call the plugin to build the image preview field:
 )) ?>
 ```
 
-The above will create form with a file input and a preview area. The `'field_name'` will be used as id and name of the file input.
+The above will create a form with a file input and a preview area. The `'field_name'` will be used as id and name of the file input.
 
 FEMU will print a detailed error in the preview area if the dimensions or extensions don't validate. FEMU will proportionally scale and crop bigger images to match the specified dimensions. If something goes wrong with the transfer, it will print a generic error. 
 
-Once you have the markup set-up, you need to link the file to the main form. FEMU provides provides a jQuery plugin to do this quickly on submit:
+Once you have the markup set-up, you need to link the file to the main form. FEMU provides a jQuery plugin to do this quickly on submit:
 
 ```javascript
 $('#main-form').submit(function(){
